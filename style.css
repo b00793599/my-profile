@@ -1,0 +1,105 @@
+body {
+	color: #6BCB77;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 80px;
+	font-size: 16px;
+	background-size: cover;
+	background-image: url(	https://www.larecolte.fr/12717-large_default/ray-grass-hybride-gala.jpg);
+}
+
+
+h1,h2 {
+	font-family:'Roboto Slab', serif;
+	text-transform: uppercase;
+	color: #01937C;
+}
+
+h1 {
+	font-weight: 400px;
+	font-size: 50px;
+		
+}
+
+h2 {
+	font-weight: 200px;
+	font-size: 30px;	
+}
+
+
+a {
+	text-decoration: none;
+	color:green ;
+}
+a:hover {
+	color:black;
+}
+
+#pdp{
+	border-radius: 50%;
+
+}
+
+div{
+	text-align: justify-all;
+	text-justify: values;
+}	
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white{
+ 	background-color: white;
+    padding: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0px;
+ }
+
+ .btn-green{
+ 	background-color:lightgreen ;
+ 	color: white;
+ 	padding: 15px 18px;
+ 	border-radius: 5px;
+ }
+
+ .btn-green{hover
+ 	color:black;
+
+ }
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+
+#presentation p {
+	margin-bottom: 40px;
+
+}
+
+
+
+
+	
